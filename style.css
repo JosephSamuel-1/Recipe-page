@@ -1,0 +1,58 @@
+ form {
+ max-width: 60%;
+ margin: 60px auto;
+padding: 15px;
+border-radius: 10px;
+   background-color: hsl(0, 0%, 100%);
+ }
+ body{
+background-color: bisque;
+ }
+
+ .recipe-image {
+   height: 100%;
+   width: 100%;
+border-radius: 5px;
+     }
+
+ @media (max-width: 375px) {
+form{
+   max-width:70%;
+}
+
+ }
+ .Time{
+    color: purple;
+ }
+ .nutrition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   }
+
+   .quantity{
+font-weight: bold;
+   }
+
+   .attribution{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .vitamins {
+      color: hsl(14, 45%, 36%);
+   }
+   .guide{
+      color:black;
+
+font-size: 16px;
+font-weight:bold;
+      
+   }
+   .recipe-time{
+      color: hsl(332, 51%, 32%);
+      display: flex;
+      align-items: center;
+      
+   }
